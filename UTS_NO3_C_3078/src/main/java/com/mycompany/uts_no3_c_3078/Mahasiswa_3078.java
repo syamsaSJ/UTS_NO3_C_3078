@@ -13,13 +13,16 @@ package com.mycompany.uts_no3_c_3078;
 
 public class Mahasiswa_3078 {
     
-    protected String nim, nama, jurusan;
-    protected int ipk;
+    //Atribut
+    protected String nim_3078, nama_3078, jurusan_3078;
+    protected int ipk_3078;
     
-    public void tampilDataMhs() {
-        System.out.println("NIM                            : " + nim);
-        System.out.println("Nama                           : " + nama);
-        System.out.println("Jurusan                        : " + jurusan);
-        System.out.println("IPK                            : " + ipk);
+    //Method tampil
+    public void tampilDataMhs_3078() {
+        System.out.println("NIM               : " + nim_3078);
+        System.out.println("Nama              : " + nama_3078);
+        System.out.println("Jurusan           : " + jurusan_3078);
+        System.out.println("IPK               : " + ipk_3078);
     }
+    
 }

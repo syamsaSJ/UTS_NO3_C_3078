@@ -11,19 +11,24 @@ package com.mycompany.uts_no3_c_3078;
  * KELAS : S1SI-05-C
  */
 
-public class StudentStaff_3078 extends Mahasiswa_3078{
+public class StudentStaff_3078 extends Mahasiswa_3078 implements iPendapatan{
     
-    String unitKerja; 
-    int jamKerja;
+    //Atribut
+    String unitKerja_3078; 
+    int jamKerja_3078;
     
-    public double totalPendapatan(){
-        return (jamKerja * 30000);
+    //Method totalPendapatan
+    public double totalPendapatan_3078(){
+        return (jamKerja_3078 * 30000);
     }
-    public void tampilDataStudentStaff(){
-        super.tampilDataMhs();
-        System.out.println("Unit Kerja                     : " + unitKerja);
-        System.out.println("Jam Kerja                      : " + jamKerja);
-        System.out.println("Total Pendapatan Student Staff : " +totalPendapatan());
+    
+    //Method tampil
+    public void tampilDataStudentStaff_3078(){
+        super.tampilDataMhs_3078();
+        System.out.println("Unit Kerja        : " + unitKerja_3078);
+        System.out.println("Jam Kerja         : " + jamKerja_3078);
+        System.out.println("-------------------------------------");
+        System.out.println("Total Pendapatan  : Rp. " + totalPendapatan_3078());
     }
     
 }
